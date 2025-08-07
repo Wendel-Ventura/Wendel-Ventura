@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #444547;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header .logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+.header a:hover {
+    color: #b3d1ff;
+}
+
+/* Estilos da Vitrine de Cursos */
+.cursos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.curso-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.curso-card:hover {
+    transform: translateY(-5px);
+}
+
+.curso-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.curso-card h3 {
+    margin-top: 15px;
+    color: #444547;
+}
+
+/* Estilos do Modal (Pop-up) */
+.modal {
+    display: none; /* Esconde o modal por padrão */
+    position: fixed; /* Fica no topo da tela */
+    z-index: 1; /* Fica acima de todo o resto */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro semi-transparente */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 5% do topo e centralizado */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Largura do modal */
+    max-width: 700px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.modal-content h3 {
+    color: #444547;
+    margin-top: 20px;
+}
+
+.close-btn {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+}
+
+#download-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#download-link:hover {
+    background-color: #0056b3;
+}

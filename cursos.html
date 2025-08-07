@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="cursos.css">
+</head>
+<body>
+    <section id="hero">
+        <header class="header">
+            <nav class="container">
+                <h1 class="logo">Meus cursos</h1>
+                <ul>
+                    <li><a href="index.html">Experiência</a></li>
+                    <li><a href="index.html">Projetos</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="index.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section id="cursos" class="container">
+        <div class="cursos-grid">
+
+            <div class="curso-card" onclick="openModal('python-basicoo')">
+            <img src="/certificados_img/python basico_pagina_1.jpg" alt="Certificado Python básico">
+            <h3>Python básico</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('python-intermediario')">
+            <img src="/certificados_img/python intermediario_pagina_1.jpg" alt="Certificado Python intermediário">
+            <h3>Python intermediário</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('python-avancado')">
+            <img src="/certificados_img/Python avançado_pagina_1.jpg" alt="Certificado Python avançado">
+            <h3>Python avançado</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('modelagem-sql')">
+            <img src="/certificados_img/Modelagem de banco de dados relacional entendendo SQL_pagina_1.jpg" alt="Certificado Modelagem banco de dados">
+            <h3>Modelagem de banco de dados relacional entendendo SQL</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('sql-mysql')">
+            <img src="/certificados_img/SQL com MySQL manipule e consulte dados_pagina_1.jpg" alt="Certificado SQL MySQL">
+            <h3>SQL com MySQL manipule e consulte dados</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('sql-joins')">
+            <img src="/certificados_img/Realizando consultas com SQL Joins, Views e transações_pagina_1.jpg" alt="Certificado SQL Joins">
+            <h3>Realizando consultas com SQL Joins, Views e transações</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('git-github')">
+            <img src="/certificados_img/Git e Github controle e compartilhe seu código_pagina_1.jpg" alt="Certificado Git e Github">
+            <h3>Git e Github controle e compartilhe seu código</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('python-ds1')">
+            <img src="/certificados_img/Python para Data Science primeiros passos_pagina_1.jpg" alt="Certificado Python Data Science primeiros passos">
+            <h3>Python para Data Science primeiros passos</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('python-ds2')">
+            <img src="/certificados_img/Python para Data Science trabalhando com funções, estruturas de dados e exceções_pagina_1.jpg" alt="Certificado Python Data Science funções">
+            <h3>Python para Data Science trabalhando com funções, estruturas de dados e exceções</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('ds-explorando')">
+            <img src="/certificados_img/Data Science explorando e analisando dados_pagina_1.jpg" alt="Certificado Data Science Explorando dados">
+            <h3>Data Science explorando e analisando dados</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('ds-hipotese')">
+            <img src="/certificados_img/Data Science testando hipótese_pagina_1.jpg" alt="Certificado Data Science Hipótese">
+            <h3>Data Science testando hipótese</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('ds-regressao')">
+            <img src="/certificados_img/Data Science testando relações com Regressão Linear_pagina_1.jpg" alt="Certificado Data Science Regressão Linear">
+            <h3>Data Science testando relações com Regressão Linear</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('ds-series-temporais')">
+            <img src="/certificados_img/Data Science analisando e prevendo séries temporais_pagina_1.jpg" alt="Certificado Data Science Series Temporais">
+            <h3>Data Science analisando e prevendo séries temporais</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('ml-classificacao')">
+            <img src="/certificados_img/Machine Learning classificação com SKLearn_pagina_1.jpg" alt="Certificado Machine Learning">
+            <h3>Machine Learning classificação com SKLearn</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('clusterizacao')">
+            <img src="/certificados_img/Clusterizacao lidando com dados sem rotulo_pagina_1.jpg" alt="Certificado Clusterizacao">
+            <h3>Clusterizacao lidando com dados sem rotulo</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('data-viz')">
+            <img src="/certificados_img/Data Visualization criando gráficos com bibliotecas Python_pagina_1.jpg" alt="Certificado Data Visualization">
+            <h3>Data Visualization criando gráficos com bibliotecas Python</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('apache-airflow')">
+            <img src="/certificados_img/Apache Airflow orquestrando seu primeiro pipeline de dados_pagina_1.jpg" alt="Certificado Apache Airflow">
+            <h3>Apache Airflow orquestrando seu primeiro pipeline de dados</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('pipeline-python-poo')">
+            <img src="/certificados_img/Pipeline de dados combinando Python e orientação a objeto_pagina_1.jpg" alt="Certificado Pipeline Python OO">
+            <h3>Pipeline de dados combinando Python e orientação a objeto</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('pipeline-mongo-mysql')">
+            <img src="/certificados_img/Pipeline de dados integrando Python com MongoDB e MySQL_pagina_1.jpg" alt="Certificado Pipeline Python MongoDB MySQL">
+            <h3>Pipeline de dados integrando Python com MongoDB e MySQL</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('mongodb')">
+            <img src="/certificados_img/MongoDB conhecendo um banco de dados NoSQL_pagina_1.jpg" alt="Certificado MongoDB">
+            <h3>MongoDB conhecendo um banco de dados NoSQL</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('python-requests')">
+            <img src="/certificados_img/Python e APIs conhecendo a biblioteca Requests_pagina_1.jpg" alt="Certificado Python APIs">
+            <h3>Python e APIs conhecendo a biblioteca Requests</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('foco')">
+            <img src="/certificados_img/Foco trazendo mais resultados para o dia a dia_pagina_1.jpg" alt="Certificado Foco">
+            <h3>Foco trazendo mais resultados para o dia a dia</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('produtividade')">
+            <img src="/certificados_img/Produtividade parte 1 estratégias para o dia a dia_pagina_1.jpg" alt="Certificado Produtividade">
+            <h3>Produtividade parte 1 estratégias para o dia a dia</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('habitos')">
+            <img src="/certificados_img/Hábitos da produtividade às metas pessoais_pagina_1.jpg" alt="Certificado Hábitos da produtividade">
+            <h3>Hábitos da produtividade às metas pessoais</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('linkedin')">
+            <img src="/certificados_img/LinkedIn Como fazer o seu perfil trabalhar para você_pagina_1.jpg" alt="Certificado LinkedIn">
+            <h3>LinkedIn Como fazer o seu perfil trabalhar para você</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('arquitetura-css')">
+            <img src="/certificados_img/Arquitetura CSS descomplicando os problemas_pagina_1.jpg" alt="Certificado Arquitetura CSS">
+            <h3>Arquitetura CSS descomplicando os problemas</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('css-grid')">
+            <img src="/certificados_img/CSS Grid simplificando layouts_pagina_1.jpg" alt="Certificado CSS Grid">
+            <h3>CSS Grid simplificando layouts</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('flexbox')">
+            <img src="/certificados_img/Flexbox posicione elementos na tela_pagina_1.jpg" alt="Certificado Flexbox">
+            <h3>Flexbox posicione elementos na tela</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('html-css1')">
+            <img src="/certificados_img/HTML5 e CSS3 parte 1 crie uma página da Web_pagina_1.jpg" alt="Certificado HTML5 e CSS3 parte 1">
+            <h3>HTML5 e CSS3 parte 1 crie uma página da Web</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('html-css2')">
+            <img src="/certificados_img/HTML5 e CSS3 parte 2 posicionamento, listas e navegação_pagina_1.jpg" alt="Certificado HTML5 e CSS3 parte 2">
+            <h3>HTML5 e CSS3 parte 2 posicionamento, listas e navegação</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('html-css3')">
+            <img src="/certificados_img/HTML5 e CSS3 parte 3 trabalhando com formulários e tabelas_pagina_1.jpg" alt="Certificado HTML5 e CSS3 parte 3">
+            <h3>HTML5 e CSS3 parte 3 trabalhando com formulários e tabelas</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('html-css4')">
+            <img src="/certificados_img/HTML5 e CSS3 parte 4 avançando no CSS_pagina_1.jpg" alt="Certificado HTML5 e CSS3 parte 4">
+            <h3>HTML5 e CSS3 parte 4 avançando no CSS</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-collections')">
+            <img src="/certificados_img/Java Collections Dominando Listas, Sets e Mapas_pagina_1.jpg" alt="Certificado Java Collections">
+            <h3>Java Collections Dominando Listas, Sets e Mapas</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-object-string')">
+            <img src="/certificados_img/Java e java.lang programe com a classe Object e String_pagina_1.jpg" alt="Certificado Java Object e String">
+            <h3>Java e java.lang programe com a classe Object e String</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-util')">
+            <img src="/certificados_img/Java e java.util Coleções, Wrappers e Lambda expressions_pagina_1.jpg" alt="Certificado Java Collections Wrappers">
+            <h3>Java e java.util Coleções, Wrappers e Lambda expressions</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-jdbc')">
+            <img src="/certificados_img/Java e JDBC trabalhando com um banco de dados_pagina_1.jpg" alt="Certificado Java JDBC">
+            <h3>Java e JDBC trabalhando com um banco de dados</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-excecoes')">
+            <img src="/certificados_img/Java Exceções aprenda a criar, lançar e controlar exceções_pagina_1.jpg" alt="Certificado Java Exceções">
+            <h3>Java Exceções aprenda a criar, lançar e controlar exceções</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-jre-jdk')">
+            <img src="/certificados_img/Java JRE e JDK compile e execute o seu programa_pagina_1.jpg" alt="Certificado Java JRE e JDK">
+            <h3>Java JRE e JDK compile e execute o seu programa</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-oo')">
+            <img src="/certificados_img/Java OO entendendo a Orientação a Objetos_pagina_1.jpg" alt="Certificado Java OO">
+            <h3>Java OO entendendo a Orientação a Objetos</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('java-polimorfismo')">
+            <img src="/certificados_img/Java Polimorfismo entenda herança e interfaces_pagina_1.jpg" alt="Certificado Java Polimorfismo">
+            <h3>Java Polimorfismo entenda herança e interfaces</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-logica1')">
+            <img src="/certificados_img/JavaScript e HTML desenvolva um jogo e pratique lógica de programação_pagina_1.jpg" alt="Certificado JS e HTML Jogo">
+            <h3>JavaScript e HTML desenvolva um jogo e pratique lógica de programação</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-logica2')">
+            <img src="/certificados_img/JavaScript e HTML pratique lógica com desenhos, animações e um jogo_pagina_1.jpg" alt="Certificado JS e HTML lógica">
+            <h3>JavaScript e HTML pratique lógica com desenhos, animações e um jogo</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-linguagem')">
+            <img src="/certificados_img/JavaScript explorando a linguagem_pagina_1.jpg" alt="Certificado JavaScript explorando">
+            <h3>JavaScript explorando a linguagem</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-interfaces')">
+            <img src="/certificados_img/JavaScript interfaces e Herança em Orientação a Objetos_pagina_1.jpg" alt="Certificado JS Herança">
+            <h3>JavaScript interfaces e Herança em Orientação a Objetos</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-dom')">
+            <img src="/certificados_img/JavaScript na Web manipule o DOM com JavaScript_pagina_1.jpg" alt="Certificado JS Web DOM">
+            <h3>JavaScript na Web manipule o DOM com JavaScript</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-formularios')">
+            <img src="/certificados_img/JavaScript na Web validação de Formulários e HTML5_pagina_1.jpg" alt="Certificado JS Web Validação">
+            <h3>JavaScript na Web validação de Formulários e HTML5</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-poo')">
+            <img src="/certificados_img/JavaScript programando a Orientação a Objetos_pagina_1.jpg" alt="Certificado JS Orientação a Objetos">
+            <h3>JavaScript programando a Orientação a Objetos</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-storageo')">
+            <img src="/certificados_img/JS na Web Armazenando dados no navegador_pagina_1.jpg" alt="Certificado JS Armazenando dados">
+            <h3>JS na Web Armazenando dados no navegador</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('js-crud')">
+            <img src="/certificados_img/JS na web CRUD com JavaScript assíncrono_pagina_1.jpg" alt="Certificado JS CRUD">
+            <h3>JS na web CRUD com JavaScript assíncrono</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('layouts-responsivos')">
+            <img src="/certificados_img/Layouts Responsivos trabalhando com layouts mobile_pagina_1.jpg" alt="Certificado Layouts Responsivos">
+            <h3>Layouts Responsivos trabalhando com layouts mobile</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('sqlite-analise')">
+            <img src="/certificados_img/SQLite online análise de dados com SQL_pagina_1.jpg" alt="Certificado SQLite análise de dados">
+            <h3>SQLite online análise de dados com SQL</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('sqlite-instrucoes')">
+            <img src="/certificados_img/SQLite online conhecendo instruções SQL_pagina_1.jpg" alt="Certificado SQLite instruções SQL">
+            <h3>SQLite online conhecendo instruções SQL</h3>
+        </div>
+        <div class="curso-card" onclick="openModal('sqlite-consultas')">
+            <img src="/certificados_img/SQLite Online executando consultas SQL_pagina_1.jpg" alt="Certificado SQLite consultas SQL">
+            <h3>SQLite Online executando consultas SQL</h3>
+        </div>
+
+        </div>
+    </section>
+
+    <div id="curso-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <iframe id="modal-pdf-viewer" src="" width="100%" height="500px"></iframe>
+            <h3 id="modal-title"></h3>
+            <a id="download-link" href="#" download>Baixar Certificado</a>
+        </div>
+    </div>
+
+    <script src="cursos.js"></script>
+</body>
+</html>
