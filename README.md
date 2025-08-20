@@ -45,9 +45,8 @@
 
 <div align="center">
   <h2>🌍 Onde me encontrar</h2>
-  <a href="URL_DO_SEU_LINKEDIN"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:SEU_EMAIL"><img alt="Gmail" src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="URL_DO_SEU_INSTAGRAM"><img alt="Instagram" src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/wendelventura"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:wendelsantastic1@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <br/><br/>
   🌐 Confira meu portfólio: <a href="https://dazzling-vacherin-09b639.netlify.app" target="_blank">Meu Site</a>
 </div>
