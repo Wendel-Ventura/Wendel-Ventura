@@ -10,9 +10,9 @@
 
 <div align="center">
   <h2>📊 Estatísticas do GitHub</h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=tokyonight" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Wendel-Ventura&show_icons=true&theme=tokyonight" alt="Estatísticas do GitHub" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USERNAME&theme=tokyonight&hide_border=false&date_format=j%20M%5B%20Y%5D" alt="Streak do GitHub" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Wendel-Ventura&theme=tokyonight&hide_border=false&date_format=j%20M%5B%20Y%5D" alt="Streak do GitHub" />
 </div>
 
 ---
