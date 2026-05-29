@@ -95,12 +95,6 @@ class Wendel:
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/main/metrics.svg" alt="GitHub Metrics" />
-
-</div>
-
-<div align="center">
-
   <img src="https://streak-stats.demolab.com?user=Wendel-Ventura&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 
 </div>
@@ -126,16 +120,6 @@ class Wendel:
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
     <img alt="Piton comendo minhas contribuicoes" src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
   </picture>
-
-</div>
-
----
-
-## 🏆 Conquistas
-
-<div align="center">
-
-  <img src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/main/metrics.achievements.svg" alt="Conquistas" />
 
 </div>
 
