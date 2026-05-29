@@ -113,14 +113,18 @@ class Wendel:
 
 ---
 
-## 🐍 Contribuições
+## 🐍 Piton
 
 <div align="center">
+
+  <sub><i>🍴 Minha piton de estimação devorando os commits da semana</i></sub>
+
+  <br /><br />
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
+    <img alt="Piton comendo minhas contribuicoes" src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
   </picture>
 
 </div>
