@@ -95,8 +95,7 @@ class Wendel:
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Wendel-Ventura&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wendel-Ventura&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/main/metrics.svg" alt="GitHub Metrics" />
 
 </div>
 
@@ -132,7 +131,7 @@ class Wendel:
 
 <div align="center">
 
-  <img src="https://github-profile-trophy.vercel.app/?username=Wendel-Ventura&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Trophies" />
+  <img src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/main/metrics.achievements.svg" alt="Conquistas" />
 
 </div>
 
