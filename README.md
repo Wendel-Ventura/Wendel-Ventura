@@ -1,15 +1,23 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Wendel%20Ventura&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineer%20%7C%20Developer%20%7C%20AI%20Enthusiast&descSize=16&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Wendel%20Ventura&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=34&desc=Data%20Engineer%20%7C%20Developer%20%7C%20AI%20Enthusiast&descSize=18&descAlignY=54" width="100%" />
 
 </div>
 
 <div align="center">
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wendelventura)
-  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wendelsantastico1@gmail.com)
-  [![Portfolio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dazzling-vacherin-09b639.netlify.app)
-  ![Profile Views](https://komarev.com/ghpvc/?username=Wendel-Ventura&color=6A0DAD&style=for-the-badge&label=Visitas)
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Data+Engineer+%7C+Python+Developer;Transformando+dados+em+decis%C3%B5es;Machine+Learning+%26+IA+Generativa;Pipelines+de+dados+em+produ%C3%A7%C3%A3o" alt="Typing SVG" />
+  </a>
+
+</div>
+
+<div align="center">
+
+  <a href="https://www.linkedin.com/in/wendelventura"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:wendelsantastico1@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://dazzling-vacherin-09b639.netlify.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Wendel-Ventura&color=8A2BE2&style=for-the-badge&label=Visitas" alt="Profile Views" />
 
 </div>
 
@@ -20,13 +28,13 @@
 ```python
 class Wendel:
     def __init__(self):
-        self.nome       = "Wendel Ventura"
+        self.nome        = "Wendel Ventura"
         self.localizacao = "Brasil 🇧🇷"
-        self.foco       = ["Data Engineering", "Machine Learning", "IA Generativa"]
-        self.stack      = ["Python", "SQL", "Power BI", "React", "Node.js"]
-        self.databases  = ["PostgreSQL", "MySQL", "Amazon Redshift"]
-        self.cloud      = ["AWS S3", "RDS"]
-        self.aprendendo = ["LLMs", "MLOps", "Pipelines de Dados"]
+        self.foco        = ["Data Engineering", "Machine Learning", "IA Generativa"]
+        self.stack       = ["Python", "SQL", "Power BI", "React", "Node.js"]
+        self.databases   = ["PostgreSQL", "MySQL", "Amazon Redshift"]
+        self.cloud       = ["AWS S3", "RDS"]
+        self.aprendendo  = ["LLMs", "MLOps", "Pipelines de Dados"]
 
     def missao(self):
         return "Transformar dados em decisões inteligentes e soluções escaláveis."
@@ -36,7 +44,7 @@ class Wendel:
 - 🌱 Aprofundando conhecimentos em **Data Science**, **ML** e **IA Generativa**
 - 🤖 Explorando **LLMs**, algoritmos de classificação, previsão e clustering
 - 💬 Me pergunte sobre **Python**, **APIs REST**, **análise de dados** ou **automação**
-- ⚡ Fact: Acredito que bons dados + boa lógica resolvem qualquer problema de negócio
+- ⚡ Fato: acredito que bons dados + boa lógica resolvem qualquer problema de negócio
 
 ---
 
@@ -87,20 +95,34 @@ class Wendel:
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Wendel-Ventura&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wendel-Ventura&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Wendel-Ventura&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wendel-Ventura&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top Languages" />
 
 </div>
 
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Wendel-Ventura&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+  <img src="https://streak-stats.demolab.com?user=Wendel-Ventura&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
 
 </div>
 
 <div align="center">
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Wendel-Ventura&theme=tokyo-night&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Wendel-Ventura&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="100%" />
+
+</div>
+
+---
+
+## 🐍 Contribuições
+
+<div align="center">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/output/github-contribution-grid-snake.svg" />
+  </picture>
 
 </div>
 
@@ -110,7 +132,7 @@ class Wendel:
 
 <div align="center">
 
-  <img src="https://github-profile-trophy.vercel.app/?username=Wendel-Ventura&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Wendel-Ventura&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Trophies" />
 
 </div>
 
@@ -118,7 +140,7 @@ class Wendel:
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
 
   <sub>⭐ Se algum projeto te ajudou, deixa uma estrela! Significa muito.</sub>
 
