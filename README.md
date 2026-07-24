@@ -50,6 +50,15 @@
 
 ---
 
+## `>` Em produção
+
+| 🟢 Projeto | Stack | Status |
+|:--|:--|:--|
+| **DF Finance** — SaaS de gestão financeira | `Flask` · `PostgreSQL/RDS` · `AWS` · `Asaas` | 🌐 [dffinance.com.br](https://dffinance.com.br) · no ar |
+| **Portfólio** — projetos & experimentos | `React` · `Vanilla JS` | 🌐 [ver portfólio](https://dazzling-vacherin-09b639.netlify.app) |
+
+---
+
 ## `>` Arsenal & Stack
 
 <div align="center">
