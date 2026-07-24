@@ -28,33 +28,11 @@
 
 ## `>` Sobre mim
 
-```python
-class Wendel:
-    """Data Engineer que trata dado como produto e código como pipeline."""
+<div align="center">
 
-    def __init__(self):
-        self.nome        = "Wendel Ventura"
-        self.localizacao = "Brasil 🇧🇷"
-        self.cargo       = "Data Engineer @ produção"
-        self.foco        = ["Data Engineering", "Machine Learning", "IA Generativa"]
-        self.stack       = ["Python", "SQL", "React", "Node.js", "Power BI"]
-        self.databases   = ["PostgreSQL", "MySQL", "Amazon Redshift"]
-        self.cloud       = ["AWS S3", "AWS RDS"]
-        self.aprendendo  = ["LLMs", "MLOps", "Arquitetura de dados"]
-        self.cafe        = float("inf")
+  <img src="https://raw.githubusercontent.com/Wendel-Ventura/Wendel-Ventura/main/assets/about.svg" width="100%" alt="python3 sobre.py — class Wendel(DataEngineer): nome, cargo, stack, dados, cloud, ml, missão e facts()" />
 
-    def missao(self) -> str:
-        return "Transformar dados em decisões inteligentes e soluções escaláveis."
-
-    def __repr__(self) -> str:
-        return "bons dados + boa lógica = qualquer problema de negócio resolvido"
-```
-
-- 🔭 Construindo **automações financeiras** e **pipelines de dados em produção**
-- 🧠 Cavando fundo em **Data Science**, **Machine Learning** e **IA Generativa**
-- 🤖 Brincando com **LLMs**, classificação, previsão e clustering
-- 💬 Me pergunte sobre **Python**, **APIs REST**, **análise de dados** ou **automação**
-- ⚡ Filosofia: dado bem modelado hoje é dor de cabeça evitada amanhã
+</div>
 
 ---
 
