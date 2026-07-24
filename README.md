@@ -77,8 +77,8 @@
 
 <div align="center">
 
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Wendel-Ventura&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&title_color=bb9af7&icon_color=7dcfff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wendel-Ventura&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&title_color=bb9af7&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Wendel-Ventura&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=86400&theme=tokyonight&title_color=bb9af7&icon_color=7dcfff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wendel-Ventura&layout=compact&hide_border=true&langs_count=8&cache_seconds=86400&theme=tokyonight&title_color=bb9af7&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
 
   <br /><br />
 

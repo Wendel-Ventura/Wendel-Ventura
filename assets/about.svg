@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" font-family="'Courier New', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" font-family="'Courier New', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" role="img" aria-label="Sobre Wendel Ventura, saída de python3 sobre.py">
+  <title>Wendel Ventura — sobre mim (python3 sobre.py)</title>
+  <desc>Terminal animado revelando a classe Wendel(DataEngineer): nome, cargo, stack, bancos de dados, cloud, machine learning, missão e wendel.facts().</desc>
   <defs>
     <linearGradient id="aGrid" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#8A2BE2" stop-opacity="0"/>
